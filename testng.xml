@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	
+	<test name="SigninPageTest">
+		<classes>
+			<class name="com.bookmyshow.testcases.SignInTest"/>
+		</classes>
+	</test>
+	
+	<test name="MoviesPageTest">
+		<classes>
+			<class name="com.bookmyshow.testcases.MoviesTest"/>
+		</classes>
+	</test>
+	
+	<test name="SportsPageTest">
+		<classes>
+			<class name="com.bookmyshow.testcases.SportsPageTest"/>
+		</classes>
+	</test>
+</suite>

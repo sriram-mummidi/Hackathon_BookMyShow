@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="SportsPageTest(failed)">
+    <classes>
+      <class name="com.bookmyshow.testcases.SportsPageTest">
+        <methods>
+          <include name="flushReport"/>
+          <include name="sportsPageTest"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.bookmyshow.testcases.SportsPageTest -->
+    </classes>
+  </test> <!-- SportsPageTest(failed) -->
+  <test thread-count="5" parallel="tests" name="SigninPageTest(failed)">
+    <classes>
+      <class name="com.bookmyshow.testcases.SignInTest">
+        <methods>
+          <include name="flushReport"/>
+          <include name="singinPageTest"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.bookmyshow.testcases.SignInTest -->
+    </classes>
+  </test> <!-- SigninPageTest(failed) -->
+  <test thread-count="5" parallel="tests" name="MoviesPageTest(failed)">
+    <classes>
+      <class name="com.bookmyshow.testcases.MoviesTest">
+        <methods>
+          <include name="flushReport"/>
+          <include name="moviesPageTest"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.bookmyshow.testcases.MoviesTest -->
+    </classes>
+  </test> <!-- MoviesPageTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
